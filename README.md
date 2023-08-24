@@ -1,6 +1,10 @@
 ![Build](https://github.com/queercat/generate_model/actions/workflows/build.yml/badge.svg)
 ![Test](https://github.com/queercat/generate_model/actions/workflows/test.yml/badge.svg)
 
+# CURRENTLY BROKEN D:<
+
+working to fix. currently only works with structs inside functions. (which is how i was testing)
+
 # generate_model
 
 generate_model is a Rust macro used for generating JSON objects from structs and writing them to a directory at compile time. This is so that you can easily generate types for APIs.

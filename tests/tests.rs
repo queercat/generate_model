@@ -20,3 +20,9 @@ pub fn test_generate_model() {
     b: u32,
   }
 }
+
+#[generate_model]
+struct TestStruct {
+  a: String,
+  b: u32,
+}
