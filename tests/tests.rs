@@ -1,8 +1,8 @@
-extern crate this_returns;
+extern crate generate_model;
 
 use fake::{Dummy, Fake, Faker};
+use generate_model::generate_model;
 use serde::Serialize;
-use this_returns::generate_model;
 
 #[test]
 pub fn test_generate_model() {
