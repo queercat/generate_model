@@ -5,6 +5,8 @@
 
 working to fix. currently only works with structs inside functions. (which is how i was testing)
 
+update: apparently i need reflection in order to pull the types out of the token stream which means that i cannot move forward with this in my current direction. for now this is dead before it even started.
+
 # generate_model
 
 generate_model is a Rust macro used for generating JSON objects from structs and writing them to a directory at compile time. This is so that you can easily generate types for APIs.
