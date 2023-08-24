@@ -1,2 +1,2 @@
-# this-returns
-A small crate that handles exporting models to JSON.
+# generate_model
+A small proc macro that handles generating JSONs for structs.
