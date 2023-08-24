@@ -1,7 +1,7 @@
 extern crate this_returns;
 
 use fake::{Dummy, Fake, Faker};
-use serde::{Deserialize, Serialize};
+use serde::Serialize;
 use this_returns::generate_model;
 
 #[test]

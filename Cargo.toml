@@ -5,7 +5,7 @@ edition = "2021"
 license = "MIT"
 keywords = ["macro", "types", "model_generation", "json"]
 categories = ["development-tools", "json-export", "struct-generation"]
-exclude = [".*"]
+exclude = [".*", "tests/"]
 
 [lib]
 proc-macro = true
