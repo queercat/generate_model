@@ -6,6 +6,7 @@ license = "MIT"
 keywords = ["macro", "types", "model_generation", "json"]
 categories = ["development-tools", "json-export", "struct-generation"]
 exclude = [".*", "tests/"]
+description = "Rust macro used for generating JSON objects from structs and writing them to a directory at compile time. This is so that you can easily generate types for APIs."
 
 [lib]
 proc-macro = true
